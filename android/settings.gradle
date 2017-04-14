@@ -1,0 +1,15 @@
+rootProject.name = 'Atmosfit'
+
+include ':app'
+include ':react-native-opentok'
+project(':react-native-opentok').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-opentok/android')
+include ':react-native-video'
+project(':react-native-video').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-video/android')
+include ':react-native-maps'
+project(':react-native-maps').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-maps/android')
+include ':react-native-fabric-digits'
+project(':react-native-fabric-digits').projectDir = new File(settingsDir, '../node_modules/react-native-fabric-digits/android')
+include ':react-native-image-picker'
+project(':react-native-image-picker').projectDir = new File(settingsDir, '../node_modules/react-native-image-picker/android')
+include ':react-native-braintree'
+project(':react-native-braintree').projectDir = new File(settingsDir, '../node_modules/react-native-braintree-android')

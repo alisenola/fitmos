@@ -1,0 +1,14 @@
+{
+  "name": "get-opentok-token",
+  "version": "1.0.0",
+  "description": "OpenTok token generation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Chudziak",
+  "license": "ISC",
+  "dependencies": {
+    "opentok": "^2.3.2"
+  }
+}

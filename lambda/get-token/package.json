@@ -1,0 +1,14 @@
+{
+  "name": "get-token",
+  "version": "1.0.0",
+  "description": "get-token",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike Chudziak",
+  "license": "ISC",
+  "dependencies": {
+    "braintree": "^1.41.0"
+  }
+}

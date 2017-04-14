@@ -1,0 +1,81 @@
+PODS:
+  - Braintree (4.4.0):
+    - Braintree/Card (= 4.4.0)
+    - Braintree/Core (= 4.4.0)
+    - Braintree/PayPal (= 4.4.0)
+    - Braintree/UI (= 4.4.0)
+  - Braintree/Card (4.4.0):
+    - Braintree/Core
+  - Braintree/Core (4.4.0)
+  - Braintree/PayPal (4.4.0):
+    - Braintree/Core
+    - Braintree/PayPalOneTouch
+  - Braintree/PayPalDataCollector (4.4.0):
+    - Braintree/Core
+    - Braintree/PayPalUtils
+  - Braintree/PayPalOneTouch (4.4.0):
+    - Braintree/Core
+    - Braintree/PayPalDataCollector
+    - Braintree/PayPalUtils
+  - Braintree/PayPalUtils (4.4.0)
+  - Braintree/UI (4.4.0):
+    - Braintree/Card
+    - Braintree/Core
+  - CleverTap-iOS-SDK (2.2.0)
+  - OpenTok (2.8.3)
+  - React (0.32.1):
+    - React/Core (= 0.32.1)
+  - react-native-braintree (0.5.0):
+    - Braintree
+    - React
+  - react-native-maps (0.8.2):
+    - React
+  - react-native-opentok (0.0.1):
+    - OpenTok
+    - React
+  - React/Core (0.32.1):
+    - React/CSSLayout
+  - React/CSSLayout (0.32.1)
+  - React/RCTImage (0.32.1):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTNetwork (0.32.1):
+    - React/Core
+  - React/RCTText (0.32.1):
+    - React/Core
+  - React/RCTWebSocket (0.32.1):
+    - React/Core
+
+DEPENDENCIES:
+  - CleverTap-iOS-SDK
+  - react-native-braintree (from `../node_modules/react-native-braintree`)
+  - react-native-maps (from `../node_modules/react-native-maps`)
+  - react-native-opentok (from `../node_modules/react-native-opentok`)
+  - React/Core (from `../node_modules/react-native`)
+  - React/RCTImage (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+
+EXTERNAL SOURCES:
+  React:
+    :path: "../node_modules/react-native"
+  react-native-braintree:
+    :path: "../node_modules/react-native-braintree"
+  react-native-maps:
+    :path: "../node_modules/react-native-maps"
+  react-native-opentok:
+    :path: "../node_modules/react-native-opentok"
+
+SPEC CHECKSUMS:
+  Braintree: 53b235f992b649778f5bc0745004e3247f31359a
+  CleverTap-iOS-SDK: df9ea1814254a8a8e438be78b9f3eb6c72942791
+  OpenTok: ad14a09847ba5d6485820f5946484b749de944d7
+  React: 304abd16605aeff4b114da814812a78de24d4ca5
+  react-native-braintree: 982b6f10d5ad436a4dc18bfc17a640d54fa0a324
+  react-native-maps: ccc3521bd3540e048754248e2b0396d261c5a2a9
+  react-native-opentok: 6138d482ebc4455eacafc712282b323044ecc8da
+
+PODFILE CHECKSUM: 001e0faaa5a214126eb5d8bc67737430161c1afb
+
+COCOAPODS: 1.0.1

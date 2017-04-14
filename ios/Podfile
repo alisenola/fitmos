@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'Atmosfit' do
+  pod 'React', :path => '../node_modules/react-native', :subspecs => [
+    'Core',
+    'RCTImage',
+    'RCTNetwork',
+    'RCTText',
+    'RCTWebSocket'
+  ]
+  pod 'react-native-braintree', :path => '../node_modules/react-native-braintree'
+  pod 'react-native-opentok',  :path => '../node_modules/react-native-opentok’
+  pod 'react-native-maps', :path => '../node_modules/react-native-maps'
+  pod 'CleverTap-iOS-SDK'
+end
